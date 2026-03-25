@@ -44,11 +44,12 @@ Git ativamente, a entidade pode estar nos seguintes subestados:
 Uma soçicitação de pull é o mecanismo usado para sinalizar as confirmações de um branch pronto para ser mesclado com outro brench.
 
 ## O fluxo do GitHub
-* **Criar o branch "feature" de "main"**
-* **Confirmar as alterações**
-* **Enviar uma Solicitação de Pull**
-* **Discutir as alterações propostas**
-* **Mesclar o branch "feature" no "main"**
+* **Criar o branch "feature" de "main":** Começar criando um branch para que suas alterações, recursos ou correções não afetem o branch principal.
+* **Confirmar as alterações:** Em seguida, faça suas atualizaações na ramificação. Teste a ramificação antes de realizar a implementação.
+* **Enviar uma Solicitação de Pull:** Agora, abra um pull request para solicitar um feedback e começar uma revisão.
+* **Discutir as alterações propostas:** Em seguida, examine comentários e faça atualizações necessárias com base nos comentários da sua equipe.
+* **Mesclar o branch "feature" no "main":** Por fim, depois da mudança, receba aprovação e mescle a solicitação de pull na ramificação principal. Depois disso,
+exclua a ramificação para manter seu repositório limpo e evitar ramificações desatualizadas.
 
 
 
