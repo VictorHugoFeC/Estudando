@@ -1,6 +1,6 @@
 # Estudando
 
-O que são gists?
+* O que são gists?
 Permite que o usuário compartilhe snippets de código, anotações ou outroas pequenas informações. São mini 
 repositórios do Git, fazendo o papel de um repositório mas com soluções rápidas.
 
