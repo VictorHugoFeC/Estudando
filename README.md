@@ -47,7 +47,7 @@ Uma soçicitação de pull é o mecanismo usado para sinalizar as confirmações
 * **Confirmar as alterações:** Em seguida, faça suas atualizaações na ramificação. Teste a ramificação antes de realizar a implementação.
 * **Enviar uma Solicitação de Pull:** Agora, abra um pull request para solicitar um feedback e começar uma revisão.
 * **Discutir as alterações propostas:** Em seguida, examine comentários e faça atualizações necessárias com base nos comentários da sua equipe.
-* **Mesclar o branch "feature" no "main":** Por fim, depois da mudança, receba aprovação e mescle a solicitação de pull na ramificação principal. Depois disso,
+* **Mesclar o branch "feature" no "main":** Por fim, dhttps://github.com/VictorHugoFeC/Estudando/projectsepois da mudança, receba aprovação e mescle a solicitação de pull na ramificação principal. Depois disso,
 exclua a ramificação para manter seu repositório limpo e evitar ramificações desatualizadas.
 
 ## Fluxo Git: tipos de ramificação 
@@ -57,8 +57,6 @@ O fluxo do git usa várias ramificações temporárias e de longa duração:
 * **feature/:** Utlizado para criar novos recursos; ramificado a partir de develop e depois mesclado novamente quando concluído.
 * **release/:** Prepara uma nova versão de produção de develop, permite testes finais e pequenas correções de bug.
 * **hotfix/:** Usado para corrigir rapidamente problemas de produção; ramificado de master.
-
-
 
 
 
