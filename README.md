@@ -21,3 +21,12 @@ repositórios do Git, fazendo o papel de um repositório mas com soluções ráp
 
 ### Suporte ao Markdown:
     Embora os Gists normalmente são usados para snippets individuais, eles também podem ser compartilhados e colaborados por vários usuários.
+
+## Componentes do fluxo do GitHub (conceitos fundamentais do Git)
+
+### O que são branches?
+Branches são essencial, eles permitem fazer alterações sem alterar o branch padrão.
+
+
+
+
