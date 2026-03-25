@@ -39,7 +39,6 @@ Git ativamente, a entidade pode estar nos seguintes subestados:
 * **Preparado:** O arquivo foi modificado e foi adicionado na área de preparo(conhecida como índice).
 * **Comitado:** O arquivo está no Bd do repositório, ele representa a versão mais recente desse repositório.
 
-
 ## O que são pull requests?
 Uma soçicitação de pull é o mecanismo usado para sinalizar as confirmações de um branch pronto para ser mesclado com outro brench.
 
@@ -51,8 +50,13 @@ Uma soçicitação de pull é o mecanismo usado para sinalizar as confirmações
 * **Mesclar o branch "feature" no "main":** Por fim, depois da mudança, receba aprovação e mescle a solicitação de pull na ramificação principal. Depois disso,
 exclua a ramificação para manter seu repositório limpo e evitar ramificações desatualizadas.
 
-
-
+## Fluxo Git: tipos de ramificação 
+O fluxo do git usa várias ramificações temporárias e de longa duração:
+* **master:** Sempre reflete o código pronto para o ambiente de produção.
+* **desenvolvimento:** Contém o trabalho de desenvolvimento mais recente para a próxima versão.
+* **feature/:** Utlizado para criar novos recursos; ramificado a partir de develop e depois mesclado novamente quando concluído.
+* **release/:** Prepara uma nova versão de produção de develop, permite testes finais e pequenas correções de bug.
+* **hotfix/:** Usado para corrigir rapidamente problemas de produção; ramificado de master.
 
 
 
