@@ -40,4 +40,34 @@ Git ativamente, a entidade pode estar nos seguintes subestados:
 * **Comitado:** O arquivo está no Bd do repositório, ele representa a versão mais recente desse repositório.
 
 
+## O que são pull requests?
+Uma soçicitação de pull é o mecanismo usado para sinalizar as confirmações de um branch pronto para ser mesclado com outro brench.
+
+## O fluxo do GitHub
+* **Criar o branch "feature" de "main"**
+* **Confirmar as alterações**
+* **Enviar uma Solicitação de Pull**
+* **Discutir as alterações propostas**
+* **Mesclar o branch "feature" no "main"**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
