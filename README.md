@@ -59,7 +59,7 @@ O fluxo do git usa várias ramificações temporárias e de longa duração:
 * **hotfix/:** Usado para corrigir rapidamente problemas de produção; ramificado de master.
 
 ## Discussão
-Já dentro do repositório selecione Discussões na parte de cima do GitHub, crie com 
+Já dentro do repositório selecione Discussões na parte de cima do GitHub, click nova discussão, crie com a categoria que você deseja, coloque o título do tema que vai ser abordado, descreva sobre o problema na caixa de texto e pronto, outros usuários podem fazer comentários sobre o seu telma levantado, uma ferramenta  ótima para ter um canal de contato direto com os usuários dentro do projeto do GitHub.
 
 
 
