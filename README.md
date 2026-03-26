@@ -58,7 +58,8 @@ O fluxo do git usa várias ramificações temporárias e de longa duração:
 * **release/:** Prepara uma nova versão de produção de develop, permite testes finais e pequenas correções de bug.
 * **hotfix/:** Usado para corrigir rapidamente problemas de produção; ramificado de master.
 
-
+## Discussão
+Já dentro do repositório selecione Discussões na parte de cima do GitHub, crie com 
 
 
 
