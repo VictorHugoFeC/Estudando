@@ -1,4 +1,5 @@
 ### Estudando Java
+Write Once, Run Anywhere (WORA) - "Escreva uma vez, execute em qualquer lugar", é o lema principal do Java e o motivo pelo qual ele se tornou tão popular no mundo da tecnologia.
 
 ## Sintaxe (A Gramática)
   É um conjunto de regras que você deve seguir para que o compilador do JDK entenda seu código. Java é uma 
