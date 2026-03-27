@@ -1,4 +1,9 @@
-# Estudando GitHub
+# Introdução ao Git
+
+## O que é controle de versão?
+Um VCS(sistema de controle de versão) é um programa ou um conjunto de programas que controla alterações feitas em uma coleção de arquivos. Facilitando recuperar versões anteriores e dando acesso simultâneo aos usuários ou membros sem afetar o arquivo. O VCS é tecnicamente, uma das práticas envolvidas no SCM(gerenciamento de configurações de software), mas o VCS pode ser usado para projetos além de software, incluindo manuais e tutoriais online. Git é um VCS rápido, versátil, altamente escalonável, gratuito e de software livre, o autor principal é Linus Torvalds, o criador do Linux.
+
+# Introdução ao GitHub
 
 ## O que são gists?
 Permite que o usuário compartilhe snippets de código, anotações ou outroas pequenas informações. São mini 
