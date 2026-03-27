@@ -67,6 +67,7 @@ GitHub permite que você filtre notificações usando configurações de acompan
 * **Nçao assistindo:** Receba notificações apenas quando estiver participando ou @mentioned.
 * **Ignorar:** Nenhuma notificação para um repositório.
 * **Personalizado:** Ajuste quais stipos de atividades(Como solicitação de pull, problemas ou discussões) disparam notificações.
+---
 GitHub disponibiliza a opção de onde você quer receber essa notificação.
 * **Email:** Notificação entregue no seu email registrado.
 * **Web:** Notificação exibida diretamente no painel do GitHub.
