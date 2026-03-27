@@ -28,13 +28,29 @@ Biblioteca são conjuntos de pacotes e classes já prontos que você pode import
 Ex: *import java.util.Scanner*; (importa a ferramenta para ler o que o usuário digita).
 
 ## Principal uso de JDK(Java Development Kit)
-  Lembre dele como um "Kit de ferramentas" que todo desenvolvedor presa para criar programas 
+  Lembre dele como um **"Kit de ferramentas"** que todo desenvolvedor presa para criar programas 
 em Java. Sem ele até da para rodar um programa pronto, mas você não consegue escrever ou transformar
 seu código em algo que o computador entenda.
 
 ## Principal função da JVM(Java Virtual Machine)
-  É um "tradutor" ou motor que executa o código Java em qualquer dispositivo ou sistema operacional.
+  É o **coração** ou *motor* que executa o código Java em qualquer dispositivo ou sistema operacional.
 Para entender melhor, o computador não entende diretamente o código que você escreve em Java. 
 Ele precisa de um intermediário que transforme as instruções do programa em algo que o 
 hardware(processador) consiga processar.
+
+## Principal função de JRE(Java Runtime Environment)
+  É o **ambiente de execução**, se você quer apenas rodar um programa de Java no seu computador, você precisa do JRE. Nele você não cria arquivos(não compila), ele serve para você rodar o sistema mas você não pode criar um novo código.
+
+## Java Standard Edition (SE), Java Enterprise Edition (EE) e Java Micro-Edition (ME)
+* **Java SE (Standard Edition):** É o núcleo do Java. Tudo o que conversamos até agora (JDK, JVM, JRE) faz parte do Java SE. Ele contém as bibliotecas fundamentais para qualquer desenvolvedor.
+* **Java EE (Enterprise Edition) – Atualmente Jakarta EE:** É uma camada construída em cima do Java SE. Ela foi feita para grandes empresas que precisam de sistemas complexos, seguros e que aguentem milhares de acessos ao mesmo tempo.
+* **Java ME (Micro Edition):** Como o nome sugere, é uma versão "enxuta" feita para dispositivos com pouca memória e processamento.
+
+
+
+
+
+
+
+
 
