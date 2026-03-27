@@ -3,6 +3,34 @@
 ## O que é controle de versão?
 Um VCS(sistema de controle de versão) é um programa ou um conjunto de programas que controla alterações feitas em uma coleção de arquivos. Facilitando recuperar versões anteriores e dando acesso simultâneo aos usuários ou membros sem afetar o arquivo. O VCS é tecnicamente, uma das práticas envolvidas no SCM(gerenciamento de configurações de software), mas o VCS pode ser usado para projetos além de software, incluindo manuais e tutoriais online. Git é um VCS rápido, versátil, altamente escalonável, gratuito e de software livre, o autor principal é Linus Torvalds, o criador do Linux.
 
+## Terminologia do Git
+A seguir uma breve lista dos termos usados com frequência pelos usuários do Git.
+* **Árvore de trabalho:** O conjunto de diretórios aninhados e arquivos que contêm o projeto em que está sendo trabalhado.
+* **Repositório:** O diretório, localizado no nível superior de uma árvore de trabalho, onde o Git mantém todo o histórico e os metadados de um projeto.
+* **Hash:** No Git, nada é rastreado pelo nome do arquivo, mas sim pelo seu conteúdo. O Hash é uma sequência alfanumérica única (ex: a1b2c3d...) gerada por um algoritmo. É o "RG" de cada alteração. Se você mudar um único espaço em um arquivo, o Hash será completamente diferente. Isso garante a integridade dos dados.
+* **Objeto(Object):** O Git armazena tudo em um banco de dados de objetos. Existem quatro tipos principais:
+  * Blob: Armazena o conteúdo dos arquivos.
+  * Tree: Funciona como uma pasta, agrupando Blobs e outras Trees.
+  * Commit: Aponta para uma Tree e contém metadados (autor, data, mensagem).
+  * Tag: Um rótulo fixo para um commit específico.
+* **Commit:** Um Commit é como um "checkpoint" ou uma foto (snapshot) do seu projeto naquele exato momento. Diferente de outros sistemas que salvam apenas as diferenças, o Git salva o estado completo dos arquivos. Se um arquivo não mudou, ele apenas cria um link para a versão anterior para economizar espaço.
+* **Branch(Ramo):** Uma Branch é simplesmente um ponteiro móvel para um commit. A branch padrão geralmente se chama main ou master. Criar uma branch permite que você trabalhe em uma nova funcionalidade sem "quebrar" o código principal. É como criar uma linha do tempo paralela.
+* **Remoto(Remote):** O Remoto é a versão do seu projeto que está hospedada na internet ou em um servidor (como GitHub, GitLab ou Bitbucket). Origin: É o nome padrão dado ao servidor remoto de onde você clonou o projeto.
+* **Comandos Essenciais:** Para colocar essa terminologia em prática, usamos os comandos no terminal:
+  * **git init:** Inicializa um novo repositório Git local na pasta atual.
+  * **git clone [url]:** Baixa um projeto existente de um servidor remoto para o seu computador.
+  * **git status:** Exibe o estado atual do diretório de trabalho (quais arquivos foram modificados ou adicionados).
+  * **git add [arquivo]:** Adiciona arquivos específicos à Staging Area (preparação). Use git add . para adicionar tudo.
+  * **git commit -m "mensagem":** Grava o snapshot dos arquivos que estão na Staging Area permanentemente no histórico.
+  * **git branch:** Lista as branches existentes. Use git branch [nome] para criar uma nova.
+  * **git checkout [nome-da-branch]:** Alterna para a branch especificada (ou git switch).
+  * **git merge [nome-da-branch]:** Une o histórico da branch especificada à branch atual.
+  * **git remote add origin [url]:** Conecta seu repositório local a um servidor remoto.
+  * **git push origin [branch]:** Envia seus commits locais para o servidor remoto.
+  * **git pull:** Atualiza seu repositório local com as alterações que estão no servidor remoto.
+  * **git log:** Mostra o histórico de todos os commits realizados no projeto.
+
+
 # Introdução ao GitHub
 
 ## O que são gists?
