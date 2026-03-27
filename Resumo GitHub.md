@@ -61,7 +61,17 @@ O fluxo do git usa várias ramificações temporárias e de longa duração:
 ## Discussão
 Já dentro do repositório selecione Discussões na parte de cima do GitHub, click nova discussão, crie com a categoria que você deseja, coloque o título do tema que vai ser abordado, descreva sobre o problema na caixa de texto e pronto, outros usuários podem fazer comentários sobre o seu telma levantado, uma ferramenta  ótima para ter um canal de contato direto com os usuários dentro do projeto do GitHub.
 
-
+## Notficações
+GitHub permite que você filtre notificações usando configurações de acompanhamento.
+* **Observando:** Recebe notficações de todas as atividades.
+* **Nçao assistindo:** Receba notificações apenas quando estiver participando ou @mentioned.
+* **Ignorar:** Nenhuma notificação para um repositório.
+* **Personalizado:** Ajuste quais stipos de atividades(Como solicitação de pull, problemas ou discussões) disparam notificações.
+GitHub disponibiliza a opção de onde você quer receber essa notificação.
+* **Email:** Notificação entregue no seu email registrado.
+* **Web:** Notificação exibida diretamente no painel do GitHub.
+* **Móvel:** Notificações por pucj usando o applicativo móvel GitHub.
+* **Notificações personalizadas:** Configurações de tipos de evento específico para canais diferentes.
 
 
 
