@@ -107,6 +107,19 @@ GitHub disponibiliza a opção de onde você quer receber essa notificação.
 * **Móvel:** Notificações por pucj usando o applicativo móvel GitHub.
 * **Notificações personalizadas:** Configurações de tipos de evento específico para canais diferentes.
 
+## Introdução aos produtos do GitHub
+GitHub para Dispositivos Móveis e GitHub para Desktop e acessar seu GitHub pelo site da web github.com
+
+## GitHub Mobile
+GitHub está disponível para Android e IOS, podendo ser acessado de qualqur lugar com o seu dispositivo de maneira segura e protejida, criado pela própria plataforma. O GitHub Mobile vai te auxiliar com as notificações, pesquisar e navegar interagindo com os usuários, e até executar tarefas leves.
+
+## GitHub Desktop
+GitHub está disponível para Windows e macOS, é um aplicativo que simplifica o fluxo de trabalho do Git, ajudando na interação entre as colaborações, compartilhamento de boas práticas do Git e do GitHub dentro da sua equipe. Adicionar repositórios é uma das funções que o aplicativo no Desktop tem, além de clonar repositório, adicionar alterações e muito mais.
+
+## Cobrança do GitHub
+GitHub cobra contas com base no tipo: pessoal, organização ou enterprise. Cada cobrança reflete uma combinação de assinaturas e cobranças baseadas em uso: 
+* **Assinaturas** incluem o plano da sua conta(como GitHub Pro ou GitHub Team) e custos mensais fixos para produtos como GitHub Copilot ou aplicativos do Marketplace.
+* **Cobrança baseada em uso** se o aplicativo cujo custo aumenta com o uso, como GitHub Actions (baseado em minutos de runtime e armazenamento de artefatos) ou GitHub Packges. 
 
 
 
