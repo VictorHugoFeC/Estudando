@@ -1,4 +1,4 @@
-# Estudando
+# Estudando GitHub
 
 ## O que são gists?
 Permite que o usuário compartilhe snippets de código, anotações ou outroas pequenas informações. São mini 
