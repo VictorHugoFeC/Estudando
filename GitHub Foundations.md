@@ -121,11 +121,27 @@ GitHub cobra contas com base no tipo: pessoal, organização ou enterprise. Cada
 * **Assinaturas** incluem o plano da sua conta(como GitHub Pro ou GitHub Team) e custos mensais fixos para produtos como GitHub Copilot ou aplicativos do Marketplace.
 * **Cobrança baseada em uso** se o aplicativo cujo custo aumenta com o uso, como GitHub Actions (baseado em minutos de runtime e armazenamento de artefatos) ou GitHub Packges. 
 
+## Método para Localizar o uso de licença para uma organização específica
+Usando o Console de Administração do GitHub Enterprise Cloud (GHEC)
+* Navegue até o Painel de Administração de Nuvem do GitHub Enterprise.
+* Vá para Configurações > de Cobrança & Planos.
+* Localize a seção Uso da Licença.
+* Examine detalhes como:
+   * Total de assentos atrobuídos.
+   * Assentos ativos em uso.
+   * Liicenças disponíveis(mostradas apenas para contas pré-pagas)
 
+Além do Método acima temos outros como: Método para localizar o uso de licença em várias organizações, Método para localizar o uso de licença para contas corporativas e Método para localizar o uso de licença em várias instâncias do GitHub
 
+## Minutos do GitHub Actions
+Uma ferramenta de automação de CI/CD em que os fluxos de trabalho são executados em máquinas virtuais.
 
+## Acompanhamento do consumo
+* Navegue até Configurações > Cobrança em sua organização ou conta do GitHub.
+* Na seção GitHub Actions, você pode ver o número de minutos usados.
+* O uso é dividido por repositório, tipo de executor (Linux, macOS, Windows) e cota restante.
 
-
+##  
 
 
 
