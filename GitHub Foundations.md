@@ -133,7 +133,7 @@ Usando o Console de Administração do GitHub Enterprise Cloud (GHEC)
 
 Além do Método acima temos outros como: Método para localizar o uso de licença em várias organizações, Método para localizar o uso de licença para contas corporativas e Método para localizar o uso de licença em várias instâncias do GitHub
 
-## Minutos do GitHub Actions
+## GitHub Actions
 Uma ferramenta de automação de CI/CD em que os fluxos de trabalho são executados em máquinas virtuais.
 
 ## Acompanhamento do consumo
@@ -141,7 +141,24 @@ Uma ferramenta de automação de CI/CD em que os fluxos de trabalho são executa
 * Na seção GitHub Actions, você pode ver o número de minutos usados.
 * O uso é dividido por repositório, tipo de executor (Linux, macOS, Windows) e cota restante.
 
-##  
+## Configurar a varredura de código no GitHub
+Varredura de código usa CodeQL para analisar o código em um repositório GitHub para encontrar vulnerabilidade de segurança e erros de codificação.
+
+## Sobre a varredura de código com CodeQL
+CodeQL é uma ferramenta de análise de código, desenvolvida pelo GitHub para automatizar uma verificação de segurança(Ele exibe alertas na verificação). Existem três maneiras de configurar CodeQL:
+* Configuração padrão para fazer uma análise rapidamente em seu repositório.
+* Configuração avançada para adicionar o fluxo de trabalho do CodeQL diretamente ao seu repositório(Gera um arquivo de fluxo de trabalho personalizável).
+* Execute a CLI do CodeQL diretamente em um sistema de CI externon e carregue os resultados no GitHub.
+---
+O CodeQL trata o código como dados, permitindo que você encontre possíveis vulnerabilidades em seu código e erros, o CodeQL oferece suporte a linguagens compiladas e interpretadas, com as seguintes linguagens compatíveis:
+* C ou C++
+* C#
+* Go
+* Java/Kotlin
+* JavaScript/TypeScript
+* Python
+* Ruby
+* Swift
 
 
 
