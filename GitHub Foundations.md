@@ -165,9 +165,10 @@ O GitHub cria alertas de verificação de código em um repositório utilizando 
 
 ## API de Verificação de Código
 A API de verificação de código permite que você recupere informações sobre alertas de verificação de código, análise, bancos de dados e configurações de instalação padrão de um repositório.
-Para acessar essa API do GitHub você pode a partir do HTTPS *https://api.github.com*
+Para acessar essa API do GitHub você pode a partir do HTTPS __https://api.github.com__, assim todos os dados são enviados e recebidos como JSON. Há um tipo de mídia personalizado com suporte para a API REST de verificação de código __application/sarif+json__
 
-
+## CLI do CodeQL
+A CLI do CodeQL é um produto autônomo que você pode utilizar para analisar o código. Sua principal funcionalidade é fazer uma representação de banco de dados de uma base de código, um banco de dados CodeQL.
 
 
 
