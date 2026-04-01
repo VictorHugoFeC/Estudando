@@ -173,6 +173,23 @@ A CLI do CodeQL é um produto autônomo que você pode utilizar para analisar o 
 ## Análise de verificação de código com GitHub Actions
 Para usar o GitHub Actions para carregar um arquivo SARIF de terceiros em um repositório, você precisará de um fluxo de trabalho de GitHub Actions. Cada vez que os resultados de uma nova verificação de código são carregados, os resultados são processados e os alertas são adicionados ao repositório. O sistema também indenfiica campos e evita alertas duplicados. Até no máximo 5.000 resultados pelo suporte dá SARIF, além de 10 MB para arquivo SARIF compactado gzip.
 
+## Introdução ao GitHub Copilot
+GitHub Copilot é um assistente de desenvolvedor habilitado para IA que ajuda o usuário a trabalhar com mais confiança e mais rápido. Copilot usa seu código como base ppara fazer a análise, te devolvendo a correção de bugs. Quando utilizado a ferramente Copilot os desenvolvedores podem focar em problemas maiores, permitindo que o trabalho esteja em um fluxo por mais tempo.
 
+## GitHub Copilot, seu programador em pares de IA
+É explicito que a IA está revolucionando a indústria da tecnologia, a inteligência Artificial multiplica a produtividade de desenvolvedores em todo mundo. Copilot e compativel com todas as linguagens de programação populares. Falando de quem desenvolveu essa potência, Microsoft desenvolveu o GitHub Copilot com a utilização de tecnologia do sistema da OpenAI Codex.
+
+## Copilot Chat
+Da para interagir com essa ferramenta diretamente dentro de editores com suporte, como Visual Studio Code e outros pelo chat, fazendo perguntas sobre o código, explicações de lógicas ou erros, além de geram documentações e explorar novos recursos.
+
+## Solicitação de pull do Copilot
+Quando você abre um pull o Copilot pode abrir automaticamente uma descrição resumida da alteração.
+
+## Copilot para a CLI
+CLI(interface de linha de comando) permite que do GitHub Copilot:
+* Solicita sugestões de comandos, trechos de código.
+* Gerar scripts de shell.
+* Entender  a saída ou erros.
+* Gerar e melhorar projetos da CLI.
 
 
