@@ -160,7 +160,7 @@ O CodeQL trata o código como dados, permitindo que você encontre possíveis vu
 * Ruby
 * Swift
 
-## Sobre uploads de arquivos SARIF para verificação de código
+## Sobre uploads de arquivos SARIF(Static Analysis Results Interchange Format) para verificação de código
 O GitHub cria alertas de verificação de código em um repositório utilizando informações de arquivos SARIF(Formato de Intercâmbio de Resultados de Análise Estáticos). Você pode gerar arquivos SARIF utilizando muitas ferramentas de teste de segurança de análise estática, incluindo CodeQL. Os resultados devem usar o SARIF versão 2.1.0. Você pode fazer upload dos resultados utilizando a API de verificação de código, a CLI do CodeQL ou GitHub Actions.
 
 ## API de Verificação de Código
@@ -170,7 +170,8 @@ Para acessar essa API do GitHub você pode a partir do HTTPS __https://api.githu
 ## CLI do CodeQL
 A CLI do CodeQL é um produto autônomo que você pode utilizar para analisar o código. Sua principal funcionalidade é fazer uma representação de banco de dados de uma base de código, um banco de dados CodeQL.
 
-
+## Análise de verificação de código com GitHub Actions
+Para usar o GitHub Actions para carregar um arquivo SARIF de terceiros em um repositório, você precisará de um fluxo de trabalho de GitHub Actions. Cada vez que os resultados de uma nova verificação de código são carregados, os resultados são processados e os alertas são adicionados ao repositório. O sistema também indenfiica campos e evita alertas duplicados. Até no máximo 5.000 resultados pelo suporte dá SARIF, além de 10 MB para arquivo SARIF compactado gzip.
 
 
 
