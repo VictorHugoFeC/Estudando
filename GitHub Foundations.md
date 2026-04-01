@@ -202,8 +202,8 @@ O Copilot Spaces fornece um local dedicado para colaborar com a IA em um projeto
 ## Agente de conficicação do Copilot
 O agente de codificação Copilot atua como um assistente de IA autônomo. Executando tarefas de codificação para gerar vários arquivos relacionados, fazer implementação um conjunto de recursos e construir scaffolding a partir de uma especificação. 
 
-
-
+## Qual a diferença de GitHub Copilot Business e o GitHub Copilot Enterprise?
+O GitHub Copilot Business é focado em segurança e gestão de equipe, podendo também receber sugestões da IA, já o GitHub Copilot Enterprise ele é bem mais profundo, é focado em contexto organizacional, ele sugere código como além disso, ele entende o sistema de software que a empresa está desenvolvendo.
 
 
 
