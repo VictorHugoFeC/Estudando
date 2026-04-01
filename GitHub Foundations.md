@@ -192,4 +192,28 @@ CLI(interface de linha de comando) permite que do GitHub Copilot:
 * Entender  a saída ou erros.
 * Gerar e melhorar projetos da CLI.
 
+## Espaços do Copilot
+O Copilot Spaces fornece um local dedicado para colaborar com a IA em um projeto. No Spaces, você pode:
+* Explicar a estrutura do projeto.
+* Fazer perguntas de planejamento de alto nível.
+* Refinir requisitos.
+* Aperfeiçoar projetos.
+
+## Agente de conficicação do Copilot
+O agente de codificação Copilot atua como um assistente de IA autônomo. Executando tarefas de codificação para gerar vários arquivos relacionados, fazer implementação um conjunto de recursos e construir scaffolding a partir de uma especificação. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
