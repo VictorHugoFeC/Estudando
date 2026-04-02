@@ -205,6 +205,15 @@ O agente de codificação Copilot atua como um assistente de IA autônomo. Execu
 ## Qual a diferença de GitHub Copilot Business e o GitHub Copilot Enterprise?
 O GitHub Copilot Business é focado em segurança e gestão de equipe, podendo também receber sugestões da IA, já o GitHub Copilot Enterprise ele é bem mais profundo, é focado em contexto organizacional, ele sugere código como além disso, ele entende o sistema de software que a empresa está desenvolvendo.
 
+## Codificar com o GitHub Codespaces
+O GitHub Codespaces é um ambiente de desenvolvimento instantâneo e baseado em nuvem que usa um contêiner para fornecer linguagens, ferramentas e utilitários de desenvolvimento comuns. Ao criar um GitHub Codespace, ocorrem quatro processos:
+* A máquina virtual e um armazenameno são atribuídos ao seu Codespace.
+* Um contêiner é criado também.
+* É feita uma conexão com o Codespace.
+* É feita uma configuração pós-criação.
+
+  
+
 
 
 
