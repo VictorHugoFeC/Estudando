@@ -210,7 +210,7 @@ O GitHub Codespaces é um ambiente de desenvolvimento instantâneo e baseado em 
 * A máquina virtual e um armazenameno são atribuídos ao seu Codespace.
 * Um contêiner é criado também.
 * É feita uma conexão com o Codespace.
-* É feita uma configuração pós-criação.
+* É feita uma configuração pós-criação. 
 
   
 
