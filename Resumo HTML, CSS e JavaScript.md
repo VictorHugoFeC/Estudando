@@ -7,7 +7,7 @@ main.css
 app.js
 
 ## Primeiro passo de HTML
-```
+```html
 <!DOCTYPE html>
  <html lang="en">
   <head>
