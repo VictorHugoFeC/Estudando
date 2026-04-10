@@ -43,10 +43,17 @@ Agora estruturando o body, pode adicionar a estrutura do seu código usando "h1"
 </body>
 </html>
 ```
-
-
-
-
+## CSS Externo
+### Regras de CSS
+```css
+body {
+ font-family: monospace;
+}
+ul {
+ font-family: helvética;
+}
+```
+## Seletores
 
 
 
