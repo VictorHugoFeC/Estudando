@@ -99,4 +99,5 @@ No final adicione uma cor para fonte e para tela de fundo, e var vai ser utiliza
   --fontColor: var(--green);
 }
 ```
+Substitua o "body" atual no CSS
 
