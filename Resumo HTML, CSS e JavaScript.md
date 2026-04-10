@@ -19,7 +19,7 @@ app.js
  </body>
 </html>
 ```
-Para vincular a um CSS coloque o "link"
+Para vincular a um CSS coloque o "link".
 ```html
 <link rel="stylesheet" href="main.css">
 ```
@@ -45,6 +45,7 @@ Agora estruturando o body, pode adicionar a estrutura do seu código usando "h1"
 ```
 ## CSS Externo
 ### Regras de CSS
+Você seleciona uma sala e define as regras de como ela deve ser.
 ```css
 body {
  font-family: monospace;
@@ -54,7 +55,18 @@ ul {
 }
 ```
 ## Seletores
-
+Uma ID é para definir o estilo de um elemento, enquanto classes podem definir vários estilos de elementos.
+```css
+li {
+ list-style: circle;
+}
+.list {
+ list-style: square;
+}
+#msg {
+ font-family: monospace;
+}
+```
 
 
 
