@@ -99,5 +99,20 @@ No final adicione uma cor para fonte e para tela de fundo, e var vai ser utiliza
   --fontColor: var(--green);
 }
 ```
-Substitua o "body" atual no CSS
+Em seguida substitua o "body" atual no CSS
+```css
+* {
+ calor: var(--fontColor);
+ font-family: helvetica;
+}
+body {
+ background: var(--bg);
+}
+```
+## O que é JavaScript
+O JavaScript é uma linguagem de programação que ajuda na interatividade da sua página Web.
+```JavaScript
+<script src="app.js"></script>
+<noscript>You need to aneble JavaScript to view the full site.</noscript>
+```
 
