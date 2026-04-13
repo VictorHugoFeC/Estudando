@@ -54,7 +54,7 @@ ul {
  font-family: helvética;
 }
 ```
-## Seletores
+### Seletores
 Uma ID é para definir o estilo de um elemento, enquanto classes podem definir vários estilos de elementos.
 ```css
 li {
@@ -67,7 +67,7 @@ li {
  font-family: monospace;
 }
 ```
-## Adicionar um tema claro
+### Adicionar um tema claro
 Adicionando temas de cores claras para seu site, use código de cor hexadecimais.
 ```css
 .light-theme {
@@ -79,7 +79,7 @@ No arquivo em HTML, coloque no seu body class="light-theme", para aplicar no seu
 ```html
 <body class="light-theme>
 ```
-## Adicionar um tema escuro
+### Adicionar um tema escuro
 Defina para o tema escuro da seguinte forma.
 ```css
 :root {
@@ -115,4 +115,37 @@ O JavaScript é uma linguagem de programação que ajuda na interatividade da su
 <script src="app.js"></script>
 <noscript>You need to aneble JavaScript to view the full site.</noscript>
 ```
+### Adicionar um botão
+Vamos colocar uma forma de permitir que o usuário altere entre tema claro e escuro para sua página Web.
+```JavaScript
+<div>
+  <button class="btn">Dark</button>
+</div>
+```
+Para tornar as cores do botão diferentes das cores gerais, definir "color" e "background-color" dentro do CSS.
+```Css
+.btn {
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+```
+E adicione algumas regras no CSS para moldar o botão.
+```Css
+.btn {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+```
+Para melhorar a aparência do botão, adicione um seletor de pseudoclasse, btn:focus.
+```Css
+.btn:focus { outline-style: none; }
+```
+
 
