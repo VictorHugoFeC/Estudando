@@ -1,151 +1,124 @@
-# Para criar um arquivo na linguagem 
-* **HTML:**
-index.html
-* **CSS:**
-main.css
-* **JavaScript:**
-app.js
+# Resumo de Fundamentos Web: HTML, CSS & JS
 
-## Primeiro passo de HTML
+Repositório dedicado ao estudo e revisão da estrutura básica de uma página web, com foco na implementação de **Temas (Claro/Escuro)**.
+
+---
+
+## Estrutura de Arquivos
+| Linguagem | Arquivo Padrão | Função |
+| :--- | :--- | :--- |
+| **HTML** | `index.html` | Estrutura e conteúdo |
+| **CSS** | `main.css` | Estilização e layout |
+| **JavaScript** | `app.js` | Interatividade e lógica |
+
+---
+
+## 1. HTML: O Esqueleto
+Abaixo, a estrutura básica com o vínculo para o arquivo de estilos (CSS) e a organização do conteúdo no `<body>`.
+
 ```html
 <!DOCTYPE html>
- <html lang="en">
-  <head>
-   <meta charset="UTF-8">
-    <title>Teste</title>
-  </head>
- <body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto de Revisão</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="light-theme">
+    <h1>Projeto Teste</h1>
+    <p>Este código serve para revisar os fundamentos da web.</p>
+    
+    <ul>
+        <li>Ponto 1</li>
+        <li>Ponto 2</li>
+        <li>Ponto 3</li>
+    </ul>
 
- </body>
-</html>
-```
-Para vincular a um CSS coloque o "link".
-```html
-<link rel="stylesheet" href="main.css">
-```
-Agora estruturando o body, pode adicionar a estrutura do seu código usando "h1", "p", "ul" e muito mais.
-```html
-<!DOCTYPE html>
- <html lang="en">
-  <head>
-   <meta charset="UTF-8">
-    <title>Teste</title>
-   <link rel="stylesheet" href="main.css">
-  </head>
-<body>
- <h1>Projeto teste</h1>
-<p>Esse code serve para revisar a linguagem</p>
-  <ul>
-   <li>Ponto 1</li>
-   <li>Ponto 2</li>
-   <li>Ponto 3</li>
-  </ul>  
+    <div>
+        <button class="btn">Dark</button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
 ```
-## CSS Externo
-### Regras de CSS
-Você seleciona uma sala e define as regras de como ela deve ser.
-```css
-body {
- font-family: monospace;
-}
-ul {
- font-family: helvética;
-}
-```
-### Seletores
-Uma ID é para definir o estilo de um elemento, enquanto classes podem definir vários estilos de elementos.
-```css
-li {
- list-style: circle;
-}
-.list {
- list-style: square;
-}
-#msg {
- font-family: monospace;
-}
-```
-### Adicionar um tema claro
-Adicionando temas de cores claras para seu site, use código de cor hexadecimais.
-```css
-.light-theme {
- color: #000000;
- background: #00FF00;
-}
-```
-No arquivo em HTML, coloque no seu body class="light-theme", para aplicar no seu código corretamente o tema claro.
-```html
-<body class="light-theme>
-```
-### Adicionar um tema escuro
-Defina para o tema escuro da seguinte forma.
-```css
+## 2. CSS: Estilização e Temas
+Utilizamos Variáveis CSS (:root) para facilitar a troca de cores entre temas.
+```Css
+/* Definição de cores globais */
 :root {
- --green: #00FF00;
- --white: #ffffff;
- --black: #000000;
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
 }
-```
-No final adicione uma cor para fonte e para tela de fundo, e var vai ser utilizado para especificar variáveis
-```css
+
+/* Regras para Tema Claro */
 .light-theme {
-  --bg: var(--green);
-  --fontColor: var(--black);
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
 }
-.dark.theme {
-  --bg: var(--black);
-  --fontColor: var(--green);
+
+/* Regras para Tema Escuro */
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
 }
-```
-Em seguida substitua o "body" atual no CSS
-```css
+
+/* Aplicando as variáveis */
 * {
- calor: var(--fontColor);
- font-family: helvetica;
+    color: var(--fontColor);
+    font-family: Helvetica, sans-serif;
 }
+
 body {
- background: var(--bg);
+    background: var(--bg);
 }
 ```
-## O que é JavaScript
-O JavaScript é uma linguagem de programação que ajuda na interatividade da sua página Web.
-```JavaScript
-<script src="app.js"></script>
-<noscript>You need to aneble JavaScript to view the full site.</noscript>
-```
-### Adicionar um botão
-Vamos colocar uma forma de permitir que o usuário altere entre tema claro e escuro para sua página Web.
-```JavaScript
-<div>
-  <button class="btn">Dark</button>
-</div>
-```
-Para tornar as cores do botão diferentes das cores gerais, definir "color" e "background-color" dentro do CSS.
+Estilizando o Botão
 ```Css
 .btn {
-  color: var(--btnFontColor);
-  background-color: var(--btnBg);
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: var(--btnBg);
+    color: var(--btnFontColor);
 }
+
+.btn:focus { outline: none; }
 ```
-E adicione algumas regras no CSS para moldar o botão.
-```Css
-.btn {
-  position: absolute;
-  top: 20px;
-  left: 250px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  color: var(--btnFontColor);
-  background-color: var(--btnBg);
-}
+## 3. JavaScript: Interatividade
+O JavaScript manipula o DOM para alternar as classes do corpo do site e mudar o tema em tempo real.
+```JavaScripr
+// Seleciona o botão pela classe
+const switcher = document.querySelector('.btn');
+
+// Escuta o evento de clique
+switcher.addEventListener('click', function() {
+    // Alterna entre as classes de tema
+    document.body.classList.toggle('dark-theme');
+    document.body.classList.toggle('light-theme');
+
+    // Atualiza o texto do botão conforme o tema atual
+    const className = document.body.className;
+    if(className == "light-theme") {
+        this.textContent = "Dark";
+    } else {
+        this.textContent = "Light";
+    }
+
+    console.log('Tema atual: ' + className);
+});
 ```
-Para melhorar a aparência do botão, adicione um seletor de pseudoclasse, btn:focus.
-```Css
-.btn:focus { outline-style: none; }
-```
+
+
 
 
