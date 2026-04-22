@@ -14,7 +14,7 @@ Repositório dedicado ao estudo e revisão da estrutura básica de uma página w
 ---
 
 ## 1. HTML: O Esqueleto
-Abaixo, a estrutura básica com o vínculo para o arquivo de estilos (CSS) e a organização do conteúdo no `<body>`.
+O arquivo `index.html` define a hierarquia dos elementos. Note que o script é carregado ao final do `body` para garantir que o DOM esteja pronto antes da execução da lógica.
 
 ```html
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ Abaixo, a estrutura básica com o vínculo para o arquivo de estilos (CSS) e a o
 </html>
 ```
 ## 2. CSS: Estilização e Temas
-Utilizamos Variáveis CSS (:root) para facilitar a troca de cores entre temas.
+A estratégia utilizada foca no uso de Custom Properties (Variáveis CSS). Isso permite que a troca de cores ocorra apenas alternando a classe no elemento pai (body).
 ```Css
 /* Definição de cores globais */
 :root {
@@ -96,7 +96,7 @@ Estilizando o Botão
 .btn:focus { outline: none; }
 ```
 ## 3. JavaScript: Interatividade
-O JavaScript manipula o DOM para alternar as classes do corpo do site e mudar o tema em tempo real.
+O arquivo app.js é responsável por dar "vida" à página. Ele utiliza o DOM (Document Object Model) para observar o comportamento do usuário e reagir modificando o HTML e o CSS dinamicamente.
 ```JavaScripr
 // Seleciona o botão pela classe
 const switcher = document.querySelector('.btn');
@@ -118,7 +118,3 @@ switcher.addEventListener('click', function() {
     console.log('Tema atual: ' + className);
 });
 ```
-
-
-
-
