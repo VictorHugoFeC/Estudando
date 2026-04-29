@@ -76,4 +76,43 @@ Abaixo, veja como a responsabilidade muda conforme o modelo escolhido:
 ---
 *Repositório criado para fins de estudo e documentação da jornada Cloud.*
 
+## Definir modelos de nuvem
+Modelos de nuvem definem o tipo de implantação de recursos de nuvem. Os três principais modelos de nuvem são privado, público e híbrido.
+<img width="1920" height="1080" alt="cloud-deployment-models" src="https://github.com/user-attachments/assets/1d535ea7-2ce3-47cb-ad9e-b5b1463f162c" />
 
+## Modelos de Implantação de Nuvem
+
+Existem três formas principais de implantar recursos de nuvem. A escolha depende das necessidades de controle, custo e escalabilidade da organização.
+
+### Nuvem Privada (Private Cloud)
+> É um ambiente usado exclusivamente por uma única entidade. Evoluiu do modelo de datacenter tradicional, mantendo os recursos dedicados.
+* **Vantagem:** Controle total sobre a segurança e os dados.
+* **Desvantagem:** Custos elevados de manutenção e hardware.
+* **Onde fica:** Pode ser no datacenter local (on-premises) ou hospedada por terceiros, desde que o hardware seja dedicado apenas à sua empresa.
+
+### Nuvem Pública (Public Cloud)
+> Criada, controlada e mantida por um provedor de terceiros (como a Microsoft). 
+* **Vantagem:** Sem custos iniciais de hardware; você paga apenas pelo que usa.
+* **Acesso:** Qualquer pessoa ou empresa pode comprar e acessar os serviços via internet.
+* **Diferencial:** Escalabilidade quase infinita e alta disponibilidade.
+
+### Nuvem Híbrida (Hybrid Cloud)
+> É o "melhor dos dois mundos". Um ambiente interconectado que combina nuvens públicas e privadas.
+* **Flexibilidade:** Permite que uma nuvem privada escale para a pública em picos de demanda (*Cloud Bursting*).
+* **Segurança:** Você pode manter dados sensíveis na infraestrutura privada e rodar aplicações menos críticas na pública.
+
+---
+
+## Comparativo: Público vs. Privado vs. Híbrido
+
+Abaixo, um resumo para ajudar na escolha do modelo ideal:
+
+| Característica | Nuvem Pública | Nuvem Privada | Nuvem Híbrida |
+| :--- | :--- | :--- | :--- |
+| **Custo Inicial (CapEx)** | Praticamente zero | Alto (compra de hardware) | Variável |
+| **Manutenção** | Responsabilidade do provedor | Responsabilidade da organização | Compartilhada |
+| **Escalabilidade** | Altíssima e rápida | Limitada ao hardware físico | Flexível |
+| **Controle/Segurança** | Padrão do provedor | Total e personalizado | Personalizado por camada |
+| **Exemplo de uso** | Startups, Apps Web | Governos, Bancos | Empresas em migração |
+
+---
