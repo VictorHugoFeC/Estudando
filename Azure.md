@@ -22,6 +22,25 @@ O curso de Conceitos Básicos do Azure é o ponto de partida ideal tanto para in
 A computação em nuvem consiste na entrega de recursos de tecnologia — como servidores, armazenamento, redes e bancos de dados — via internet. Indo além da infraestrutura tradicional, ela engloba inovações como IA, Machine Learning e IoT.
 O seu grande diferencial é a escalabilidade: por não estar presa às limitações físicas de um datacenter local, a nuvem permite expandir ou reduzir sua capacidade de TI de forma quase instantânea, eliminando a necessidade de grandes obras ou espera por hardware físico.
 
+## Descrever o modelo de responsabilidade compartilhada
+Talvez você tenha ouvido falar do modelo de responsabilidade compartilhada, mas talvez não entenda o que significa e como afeta na computação em nuvem.
+
+## Como as responsabilidades se transformam na nuvem
+O Modelo de Responsabilidade Compartilhada define quem faz o quê na nuvem, contrastando com o modelo tradicional (On-premises):
+* **No Datacenter Local (On-premises):** Você é dono de tudo. É responsável desde a segurança física e energia até a atualização do sistema operacional e dos dados.
+* **Na Nuvem:** A carga é dividida. O provedor (Microsoft) sempre cuida da infraestrutura física (segurança do prédio, energia, resfriamento). O consumidor (você) sempre cuida dos dados, das contas e da segurança de acesso.
+
+**A Responsabilidade por Tipo de Serviço:**
+A divisão do "meio do caminho" (como sistemas operacionais e rede) varia conforme o modelo escolhido:
+
+* **IaaS (Infraestrutura como Serviço):** É onde você tem mais controle e mais trabalho. O provedor cuida do hardware, mas você cuida da VM, do sistema operacional e das atualizações.
+
+* **PaaS (Plataforma como Serviço):** É o equilíbrio. O provedor gerencia o sistema operacional e o software base (como um banco de dados SQL), e você foca apenas na aplicação e nos dados.
+
+* **SaaS (Software como Serviço):** É onde o provedor cuida de quase tudo. Você é apenas o usuário final do software, sendo responsável apenas pelos dados que insere e por quem tem acesso à conta.
+
+**Regra de ouro:** Não importa o modelo (IaaS, PaaS ou SaaS), a responsabilidade pelos dados, dispositivos (endpoints) e gerenciamento de contas/identidades será sempre sua.
+
 
 
 
