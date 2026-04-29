@@ -4,7 +4,7 @@ Este repositório contém anotações e conceitos fundamentais sobre computaçã
 
 ---
 
-## Conceitos Básicos do Microsoft Azure
+## ☁️ Conceitos Básicos do Microsoft Azure
 
 O **Microsoft Azure** é uma plataforma de nuvem versátil que oferece serviços para todo tipo de projeto: desde a hospedagem de sites simples até infraestruturas complexas com computação virtualizada. 
 
@@ -25,11 +25,11 @@ Além de armazenamento e bancos de dados, a plataforma disponibiliza tecnologias
 ### Por que estudar os fundamentos?
 O curso é o ponto de partida ideal para iniciantes e profissionais que buscam a certificação oficial. O exame **AZ-900** é dividido em três áreas principais:
 
-> | Área de Conhecimento | Peso no Exame |
-> | :--- | :--- |
-> | **Arquitetura e Serviços do Azure** | 35-40% |
-> | **Gerenciamento e Governança** | 30-35% |
-> | **Conceitos de Nuvem** | 25-30% |
+| Área de Conhecimento | Peso no Exame |
+| :--- | :--- |
+| **Arquitetura e Serviços do Azure** | 35-40% |
+| **Gerenciamento e Governança** | 30-35% |
+| **Conceitos de Nuvem** | 25-30% |
 
 ---
 
@@ -51,9 +51,6 @@ Um dos conceitos mais importantes na nuvem é entender "quem é responsável pel
 * **Na Nuvem:** A carga é dividida. A Microsoft cuida da segurança física, energia e hardware.
 
 ### Responsabilidade por Modelo de Serviço
-
-Abaixo, veja como a responsabilidade muda conforme o modelo escolhido:
-
 1.  **IaaS (Infraestrutura como Serviço):** Maior controle. O provedor cuida do hardware; você cuida da VM, do SO e das atualizações.
 2.  **PaaS (Plataforma como Serviço):** Equilíbrio. O provedor gere o SO e o software base; você foca na aplicação e nos dados.
 3.  **SaaS (Software como Serviço):** Conveniência total. O provedor cuida de quase tudo; você gerencia apenas seus dados e acessos.
@@ -62,86 +59,82 @@ Abaixo, veja como a responsabilidade muda conforme o modelo escolhido:
 
 ### Check-list de Responsabilidades
 
-| Ativo | Responsabilidade do Usuário | Responsabilidade do Provedor |
+| Ativo | Usuário | Provedor |
 | :--- | :---: | :---: |
 | **Dados e Informações** | ✅ | ❌ |
 | **Dispositivos (Endpoints)** | ✅ | ❌ |
 | **Contas e Identidades** | ✅ | ❌ |
 | **Datacenter Físico** | ❌ | ✅ |
 | **Rede Física / Hosts** | ❌ | ✅ |
-| **SO / Aplicativos** | *Depende do modelo (IaaS/PaaS)* | *Depende do modelo* |
+| **SO / Aplicativos** | *IaaS / PaaS* | *PaaS / SaaS* |
 
+> [!IMPORTANT]
 > **Regra de Ouro:** Não importa o modelo (IaaS, PaaS ou SaaS), a responsabilidade pelos **dados**, **dispositivos** e **gerenciamento de identidades** será SEMPRE sua.
 
 ---
-*Repositório criado para fins de estudo e documentação da jornada Cloud.*
-
-## Definir modelos de nuvem
-Modelos de nuvem definem o tipo de implantação de recursos de nuvem. Os três principais modelos de nuvem são privado, público e híbrido.
-<img width="1920" height="1080" alt="cloud-deployment-models" src="https://github.com/user-attachments/assets/1d535ea7-2ce3-47cb-ad9e-b5b1463f162c" />
 
 ## Modelos de Implantação de Nuvem
 
-Existem três formas principais de implantar recursos de nuvem. A escolha depende das necessidades de controle, custo e escalabilidade da organização.
+Modelos de nuvem definem o tipo de implantação de recursos. A escolha depende das necessidades de controle, custo e escalabilidade.
 
-### Nuvem Privada (Private Cloud)
-> É um ambiente usado exclusivamente por uma única entidade. Evoluiu do modelo de datacenter tradicional, mantendo os recursos dedicados.
+<img width="100%" alt="cloud-deployment-models" src="https://github.com/user-attachments/assets/1d535ea7-2ce3-47cb-ad9e-b5b1463f162c" />
+
+### 1. Nuvem Privada (Private Cloud)
+Ambiente usado exclusivamente por uma única entidade.
 * **Vantagem:** Controle total sobre a segurança e os dados.
-* **Desvantagem:** Custos elevados de manutenção e hardware.
-* **Onde fica:** Pode ser no datacenter local (on-premises) ou hospedada por terceiros, desde que o hardware seja dedicado apenas à sua empresa.
+* **Desvantagem:** Custos elevados de manutenção e hardware (CapEx).
+* **Onde fica:** Datacenter local (on-premises) ou hospedada por terceiros em hardware dedicado.
 
-### Nuvem Pública (Public Cloud)
-> Criada, controlada e mantida por um provedor de terceiros (como a Microsoft). 
-* **Vantagem:** Sem custos iniciais de hardware; você paga apenas pelo que usa.
-* **Acesso:** Qualquer pessoa ou empresa pode comprar e acessar os serviços via internet.
+### 2. Nuvem Pública (Public Cloud)
+Criada, controlada e mantida por um provedor (ex: Microsoft, AWS, Google). 
+* **Vantagem:** Sem custos iniciais de hardware; modelo de pagamento por uso (Pay-as-you-go).
+* **Acesso:** Disponível para qualquer pessoa via internet.
 * **Diferencial:** Escalabilidade quase infinita e alta disponibilidade.
 
-### Nuvem Híbrida (Hybrid Cloud)
-> É o "melhor dos dois mundos". Um ambiente interconectado que combina nuvens públicas e privadas.
-* **Flexibilidade:** Permite que uma nuvem privada escale para a pública em picos de demanda (*Cloud Bursting*).
-* **Segurança:** Você pode manter dados sensíveis na infraestrutura privada e rodar aplicações menos críticas na pública.
+### 3. Nuvem Híbrida (Hybrid Cloud)
+Um ambiente interconectado que combina nuvens públicas e privadas.
+* **Flexibilidade:** Permite o *Cloud Bursting* (escalar para a pública em picos de demanda).
+* **Segurança:** Mantém dados sensíveis no privado e aplicações de larga escala no público.
 
 ---
 
 ## Comparativo: Público vs. Privado vs. Híbrido
 
-Abaixo, um resumo para ajudar na escolha do modelo ideal:
-
 | Característica | Nuvem Pública | Nuvem Privada | Nuvem Híbrida |
 | :--- | :--- | :--- | :--- |
-| **Custo Inicial (CapEx)** | Praticamente zero | Alto (compra de hardware) | Variável |
-| **Manutenção** | Responsabilidade do provedor | Responsabilidade da organização | Compartilhada |
-| **Escalabilidade** | Altíssima e rápida | Limitada ao hardware físico | Flexível |
-| **Controle/Segurança** | Padrão do provedor | Total e personalizado | Personalizado por camada |
-| **Exemplo de uso** | Startups, Apps Web | Governos, Bancos | Empresas em migração |
+| **Custo Inicial (CapEx)** | Praticamente zero | Alto | Variável |
+| **Manutenção** | Provedor | Organização | Compartilhada |
+| **Escalabilidade** | Altíssima e rápida | Limitada ao hardware | Flexível |
+| **Controle/Segurança** | Padrão do provedor | Total e personalizado | Personalizado |
 
 ---
 
 ## Cenários Avançados e Integração
-Além dos modelos tradicionais, o mercado atual exige flexibilidade entre diferentes provedores e infraestruturas legadas.
 
 ### Multicloud (Várias Nuvens)
-Um quarto cenário cada vez mais provável é um cenário de várias nuvens. 
+Uso de múltiplos provedores de nuvem pública (ex: usar Azure para IA e AWS para armazenamento) para evitar dependência de um único fornecedor (*vendor lock-in*).
 
 ### Azure Arc
-O **Azure Arc** é o "braço operacional" da Microsoft que unifica a gestão. Ele permite gerenciar seu ambiente independentemente de onde ele esteja:
-* [x] **Nuvem Pública** (Apenas Azure).
-* [x] **Nuvem Privada** (Seu próprio datacenter).
-* [x] **Nuvem Híbrida** (Conexão local + Azure).
-* [x] **Multicloud** (Gerenciar recursos da AWS ou Google Cloud dentro do portal do Azure).
+O **Azure Arc** é o "braço operacional" que unifica a gestão de recursos em ambientes diversos:
+- [x] **Nuvem Pública** (Apenas Azure).
+- [x] **Nuvem Privada** (Seu próprio datacenter).
+- [x] **Nuvem Híbrida** (Conexão local + Azure).
+- [x] **Multicloud** (Gerenciar AWS ou Google Cloud dentro do portal do Azure).
 
-### Solução VMware no Azure (Azure VMware Solution)
-Ideal para empresas que já utilizam VMware em seus datacenters locais e desejam migrar para a nuvem sem precisar reescrever suas aplicações ou mudar seus processos operacionais.
+### Solução VMware no Azure (AVS)
+Ideal para empresas que já utilizam VMware localmente e desejam migrar sem reescrever aplicações.
 * **Integração:** Execute cargas de trabalho VMware nativamente no Azure.
-* **Escalabilidade:** Aproveite a infraestrutura global da Microsoft mantendo as ferramentas de gestão que sua equipe já conhece.
+* **Gestão:** Mantém as ferramentas conhecidas pela equipe técnica.
 
 ---
 
 ### Resumo de Conceitos-Chave
+
 > | Termo | O que você não pode esquecer |
 > | :--- | :--- |
-> | **Multicloud** | Uso de múltiplos provedores públicos (Azure + outros). |
+> | **Multicloud** | Uso de múltiplos provedores públicos. |
 > | **Azure Arc** | Ponte de gerenciamento para ambientes híbridos e multinuvem. |
-> | **VMware no Azure** | Migração suave de ambientes VMware locais para a nuvem. |
+> | **VMware no Azure** | Migração suave de ambientes VMware locais para o Azure. |
 
-
+---
+*Repositório criado para fins de estudo e documentação da jornada Cloud.*
