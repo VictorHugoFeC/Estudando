@@ -145,7 +145,3 @@ Ideal para empresas que já utilizam VMware em seus datacenters locais e desejam
 > | **VMware no Azure** | Migração suave de ambientes VMware locais para a nuvem. |
 
 
-
-
-
-
