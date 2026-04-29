@@ -1,67 +1,79 @@
-# Introdução à Infraestrutura de Nuvem: Descrever conceitos de nuvem
+# Introdução à Infraestrutura de Nuvem e Microsoft Azure
+
+Este repositório contém anotações e conceitos fundamentais sobre computação em nuvem, focando no ecossistema **Microsoft Azure**. O conteúdo aqui descrito serve como base para a certificação **AZ-900 (Azure Fundamentals)**.
+
+---
+
 ## Conceitos Básicos do Microsoft Azure
-O Microsoft Azure é uma plataforma de nuvem versátil que oferece serviços para todo tipo de projeto, desde a hospedagem de sites simples até infraestruturas complexas com computação virtualizada. Além de armazenamento e bancos de dados, a plataforma disponibiliza tecnologias avançadas em IA e IoT. O foco principal desta série é fornecer a base sobre computação em nuvem, os principais serviços da Microsoft e as ferramentas de governança e conformidade.
 
-<img width="1920" height="1080" alt="azure-services-diagram" src="https://github.com/user-attachments/assets/919cac03-74f6-459c-9ad4-7e3a93ed87a8" />
+O **Microsoft Azure** é uma plataforma de nuvem versátil que oferece serviços para todo tipo de projeto: desde a hospedagem de sites simples até infraestruturas complexas com computação virtualizada. 
 
-## O que são conceitos básicos do Azure?
-O Azure Fundamentals é uma trilha de aprendizado estruturada para quem deseja iniciar no ecossistema da Microsoft Cloud. O conteúdo abrange serviços de computação, rede, armazenamento, segurança, governança e gestão, mesclando teoria com desafios práticos de TI. Não exige experiência técnica prévia, sendo ideal para construir uma base sólida em nuvem.
+Além de armazenamento e bancos de dados, a plataforma disponibiliza tecnologias avançadas em **IA (Inteligência Artificial)** e **IoT (Internet das Coisas)**. Este guia foca em fornecer a base sobre:
+* Principais serviços da Microsoft.
+* Ferramentas de governança e conformidade.
+* Modelos de computação em nuvem.
 
-## Por que devo usar os conceitos básicos de Azure
-O curso de Conceitos Básicos do Azure é o ponto de partida ideal tanto para iniciantes quanto para quem já tem experiência e busca a certificação oficial. Ele é estruturado para cobrir as três principais áreas do exame AZ-900, com pesos distribuídos da seguinte forma:
+![Azure Services Diagram](https://github.com/user-attachments/assets/919cac03-74f6-459c-9ad4-7e3a93ed87a8)
+
+### O que é o Azure Fundamentals?
+É uma trilha de aprendizado estruturada para quem deseja iniciar no ecossistema da Microsoft Cloud. O conteúdo abrange:
+- [x] Serviços de computação e rede.
+- [x] Armazenamento e segurança.
+- [x] Governança e gestão de custos.
+- [x] Desafios práticos de TI.
+
+### Por que estudar os fundamentos?
+O curso é o ponto de partida ideal para iniciantes e profissionais que buscam a certificação oficial. O exame **AZ-900** é dividido em três áreas principais:
+
+> | Área de Conhecimento | Peso no Exame |
+> | :--- | :--- |
+> | **Arquitetura e Serviços do Azure** | 35-40% |
+> | **Gerenciamento e Governança** | 30-35% |
+> | **Conceitos de Nuvem** | 25-30% |
 
 ---
-* **Arquitetura e Serviços do Azure (35-40%):** O foco principal, tratando da estrutura e funcionamento da nuvem Microsoft.
-* **Gerenciamento e Governança (30-35%):** Ferramentas de controle e conformidade.
-* **Conceitos de Nuvem (25-30%):** Fundamentos e benefícios gerais do modelo de nuvem.
+
+## O que é Computação em Nuvem?
+
+A computação em nuvem consiste na entrega de recursos de tecnologia — como servidores, armazenamento, redes e bancos de dados — via internet. 
+
+**Diferencial Chave: Escalabilidade**
+Ao contrário de um datacenter local, a nuvem permite expandir ou reduzir a capacidade de TI quase instantaneamente, eliminando a necessidade de hardware físico próprio ou grandes investimentos iniciais.
+
 ---
 
-É o roteiro essencial para quem deseja validar conhecimentos técnicos e obter uma compreensão abrangente da plataforma.
+## Modelo de Responsabilidade Compartilhada
 
-# O que é computação em nuvem
-A computação em nuvem consiste na entrega de recursos de tecnologia — como servidores, armazenamento, redes e bancos de dados — via internet. Indo além da infraestrutura tradicional, ela engloba inovações como IA, Machine Learning e IoT.
-O seu grande diferencial é a escalabilidade: por não estar presa às limitações físicas de um datacenter local, a nuvem permite expandir ou reduzir sua capacidade de TI de forma quase instantânea, eliminando a necessidade de grandes obras ou espera por hardware físico.
+Um dos conceitos mais importantes na nuvem é entender "quem é responsável pelo quê". Esse modelo define a divisão de tarefas entre você (o consumidor) e a Microsoft (o provedor).
 
-## Descrever o modelo de responsabilidade compartilhada
-Talvez você tenha ouvido falar do modelo de responsabilidade compartilhada, mas talvez não entenda o que significa e como afeta na computação em nuvem.
+### A transformação das responsabilidades
+* **On-premises (Local):** Você é responsável por tudo (desde a energia do prédio até os dados).
+* **Na Nuvem:** A carga é dividida. A Microsoft cuida da segurança física, energia e hardware.
 
-## Como as responsabilidades se transformam na nuvem
-O Modelo de Responsabilidade Compartilhada define quem faz o quê na nuvem, contrastando com o modelo tradicional (On-premises):
-* **No Datacenter Local (On-premises):** Você é dono de tudo. É responsável desde a segurança física e energia até a atualização do sistema operacional e dos dados.
-* **Na Nuvem:** A carga é dividida. O provedor (Microsoft) sempre cuida da infraestrutura física (segurança do prédio, energia, resfriamento). O consumidor (você) sempre cuida dos dados, das contas e da segurança de acesso.
+### Responsabilidade por Modelo de Serviço
 
-**A Responsabilidade por Tipo de Serviço:**
-A divisão do "meio do caminho" (como sistemas operacionais e rede) varia conforme o modelo escolhido:
+Abaixo, veja como a responsabilidade muda conforme o modelo escolhido:
 
-* **IaaS (Infraestrutura como Serviço):** É onde você tem mais controle e mais trabalho. O provedor cuida do hardware, mas você cuida da VM, do sistema operacional e das atualizações.
+1.  **IaaS (Infraestrutura como Serviço):** Maior controle. O provedor cuida do hardware; você cuida da VM, do SO e das atualizações.
+2.  **PaaS (Plataforma como Serviço):** Equilíbrio. O provedor gere o SO e o software base; você foca na aplicação e nos dados.
+3.  **SaaS (Software como Serviço):** Conveniência total. O provedor cuida de quase tudo; você gerencia apenas seus dados e acessos.
 
-* **PaaS (Plataforma como Serviço):** É o equilíbrio. O provedor gerencia o sistema operacional e o software base (como um banco de dados SQL), e você foca apenas na aplicação e nos dados.
+![Shared Responsibility Model](https://github.com/user-attachments/assets/ab6145bf-fa62-470e-8d3f-4c9c66ae08f4)
 
-* **SaaS (Software como Serviço):** É onde o provedor cuida de quase tudo. Você é apenas o usuário final do software, sendo responsável apenas pelos dados que insere e por quem tem acesso à conta.
+### Check-list de Responsabilidades
 
-**Regra de ouro:** Não importa o modelo (IaaS, PaaS ou SaaS), a responsabilidade pelos dados, dispositivos (endpoints) e gerenciamento de contas/identidades será sempre sua.
+| Ativo | Responsabilidade do Usuário | Responsabilidade do Provedor |
+| :--- | :---: | :---: |
+| **Dados e Informações** | ✅ | ❌ |
+| **Dispositivos (Endpoints)** | ✅ | ❌ |
+| **Contas e Identidades** | ✅ | ❌ |
+| **Datacenter Físico** | ❌ | ✅ |
+| **Rede Física / Hosts** | ❌ | ✅ |
+| **SO / Aplicativos** | *Depende do modelo (IaaS/PaaS)* | *Depende do modelo* |
 
-## Responsabilidade por modelo de serviço
-O diagrama a seguir destaca como o modelo de responsabilidade compartilhada informa quem é responsável pelo que, dependendo do tipo de serviço de nuvem.
-<img width="1920" height="1080" alt="shared-responsibility-model" src="https://github.com/user-attachments/assets/ab6145bf-fa62-470e-8d3f-4c9c66ae08f4" />
+> **Regra de Ouro:** Não importa o modelo (IaaS, PaaS ou SaaS), a responsabilidade pelos **dados**, **dispositivos** e **gerenciamento de identidades** será SEMPRE sua.
 
-## O que sempre fica com você
-Ao usar um provedor de nuvem, você é sempre responsável por:
-* As informações e os dados armazenados na nuvem.
-* Dispositivos que têm permissão para se conectar à nuvem (celulares, computadores e assim por diante)
-* As contas e identidades das pessoas, serviços e dispositivos em seu ambiente.
-
-## O que o provedor sempre possui
-O provedor de nuvem é sempre responsável por:
-* O datacenter físico.
-* A rede física.
-* Hosts físicos.
-
-## O que depende do tipo de serviço
-Seu modelo de serviço determina a responsabilidade por itens como:
-* Sistema operacionais.
-* Controles da rede.
-* Aplicativos.
-* Identidade e infraestrutura.
+---
+*Repositório criado para fins de estudo e documentação da jornada Cloud.*
 
 
