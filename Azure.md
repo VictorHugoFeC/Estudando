@@ -41,9 +41,27 @@ A divisão do "meio do caminho" (como sistemas operacionais e rede) varia confor
 
 **Regra de ouro:** Não importa o modelo (IaaS, PaaS ou SaaS), a responsabilidade pelos dados, dispositivos (endpoints) e gerenciamento de contas/identidades será sempre sua.
 
+## Responsabilidade por modelo de serviço
+O diagrama a seguir destaca como o modelo de responsabilidade compartilhada informa quem é responsável pelo que, dependendo do tipo de serviço de nuvem.
+<img width="1920" height="1080" alt="shared-responsibility-model" src="https://github.com/user-attachments/assets/ab6145bf-fa62-470e-8d3f-4c9c66ae08f4" />
 
+## O que sempre fica com você
+Ao usar um provedor de nuvem, você é sempre responsável por:
+* As informações e os dados armazenados na nuvem.
+* Dispositivos que têm permissão para se conectar à nuvem (celulares, computadores e assim por diante)
+* As contas e identidades das pessoas, serviços e dispositivos em seu ambiente.
 
+## O que o provedor sempre possui
+O provedor de nuvem é sempre responsável por:
+* O datacenter físico.
+* A rede física.
+* Hosts físicos.
 
-
+## O que depende do tipo de serviço
+Seu modelo de serviço determina a responsabilidade por itens como:
+* Sistema operacionais.
+* Controles da rede.
+* Aplicativos.
+* Identidade e infraestrutura.
 
 
