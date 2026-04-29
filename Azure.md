@@ -21,3 +21,10 @@ O curso de Conceitos Básicos do Azure é o ponto de partida ideal tanto para in
 # O que é computação em nuvem
 A computação em nuvem consiste na entrega de recursos de tecnologia — como servidores, armazenamento, redes e bancos de dados — via internet. Indo além da infraestrutura tradicional, ela engloba inovações como IA, Machine Learning e IoT.
 O seu grande diferencial é a escalabilidade: por não estar presa às limitações físicas de um datacenter local, a nuvem permite expandir ou reduzir sua capacidade de TI de forma quase instantânea, eliminando a necessidade de grandes obras ou espera por hardware físico.
+
+
+
+
+
+
+
