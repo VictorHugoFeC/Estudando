@@ -227,8 +227,54 @@ A computação em nuvem apoia metas ambientais através da otimização de recur
 > **Resumo:** A sustentabilidade na nuvem está ligada a bons hábitos operacionais: **Tamanho certo, automatizar, monitorar e otimizar.**
 
 
+# Infraestrutura como um Serviço (IaaS)
 
+A **IaaS (Infrastructure as a Service)** é a categoria mais flexível de serviços de nuvem, proporcionando o nível máximo de controle sobre os recursos implantados.
 
+<img width="1920" height="1090" alt="cloud-service-types-comparison" src="https://github.com/user-attachments/assets/29acb3a7-6921-411f-8aa3-544f0e6b926b" />
+
+---
+
+## Características Principais
+
+No modelo IaaS, você essencialmente "aluga" o hardware físico em um datacenter, mas a gestão lógica é de sua responsabilidade.
+
+### Divisão de Responsabilidades
+*   **Provedor de Nuvem:** Responsável pelo hardware físico, conectividade de rede com a Internet e segurança física das instalações.
+*   **Usuário (Você):** Responsável por todo o restante, incluindo:
+    *   Instalação, configuração e manutenção do **Sistema Operacional**.
+    *   Configuração de rede e firewalls.
+    *   Gerenciamento de bancos de dados e armazenamento.
+    *   Atualizações de software e segurança (patches).
+
+---
+
+## Foco de Responsabilidade
+
+O IaaS exige a maior **responsabilidade operacional** por parte do cliente, mas em troca oferece a **flexibilidade máxima**. Você gerencia quase todo o *stack* de carga de trabalho, desde o SO até o runtime da aplicação.
+
+> [!IMPORTANT]
+> Lembre-se: No IaaS, você é o administrador do sistema. Se o sistema operacional precisar de um patch de segurança, é você quem deve aplicar.
+
+---
+
+## Cenários de Uso Comuns
+
+O uso de IaaS é ideal em situações onde o controle total da máquina é necessário:
+
+1.  **Migração Lift-and-Shift:** 
+    Estratégia de mover cargas de trabalho do datacenter local para a nuvem exatamente como estão, sem redesenhar a aplicação.
+    
+2.  **Teste e Desenvolvimento:** 
+    Capacidade de replicar rapidamente configurações de hardware específicas para testar softwares e desligar os ambientes logo em seguida para economizar custos.
+
+3.  **Hospedagem de Aplicações Legadas:**
+    Quando uma aplicação exige uma versão específica de um Sistema Operacional ou configurações de kernel que serviços gerenciados (PaaS) não permitem.
+
+---
+
+> [!IMPORTANT]
+> **Resumo:** IaaS = Controle Máximo + Flexibilidade Total + Alta Responsabilidade Operacional.
 
 
 
