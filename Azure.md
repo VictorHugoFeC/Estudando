@@ -226,55 +226,65 @@ A computação em nuvem apoia metas ambientais através da otimização de recur
 > [!IMPORTANT]
 > **Resumo:** A sustentabilidade na nuvem está ligada a bons hábitos operacionais: **Tamanho certo, automatizar, monitorar e otimizar.**
 
+# ☁️ Modelos de Serviço na Nuvem (IaaS, PaaS e SaaS)
 
-# Infraestrutura como um Serviço (IaaS)
+Este guia resume os principais modelos de serviço de computação em nuvem, detalhando as responsabilidades, focos e cenários de uso para cada um.
 
-A **IaaS (Infrastructure as a Service)** é a categoria mais flexível de serviços de nuvem, proporcionando o nível máximo de controle sobre os recursos implantados.
-
-<img width="1920" height="1090" alt="cloud-service-types-comparison" src="https://github.com/user-attachments/assets/29acb3a7-6921-411f-8aa3-544f0e6b926b" />
-
----
-
-## Características Principais
-
-No modelo IaaS, você essencialmente "aluga" o hardware físico em um datacenter, mas a gestão lógica é de sua responsabilidade.
-
-### Divisão de Responsabilidades
-*   **Provedor de Nuvem:** Responsável pelo hardware físico, conectividade de rede com a Internet e segurança física das instalações.
-*   **Usuário (Você):** Responsável por todo o restante, incluindo:
-    *   Instalação, configuração e manutenção do **Sistema Operacional**.
-    *   Configuração de rede e firewalls.
-    *   Gerenciamento de bancos de dados e armazenamento.
-    *   Atualizações de software e segurança (patches).
+<img width="1920" height="1090" alt="cloud-service-types-comparison" src="https://github.com/user-attachments/assets/d2703f9b-def2-42ce-8d75-a4b80febe5d8" />
 
 ---
 
-## Foco de Responsabilidade
+## 1. Infraestrutura como um Serviço (IaaS)
+O **IaaS** é a categoria mais flexível, oferecendo o controle máximo sobre os recursos de hardware virtualizado.
 
-O IaaS exige a maior **responsabilidade operacional** por parte do cliente, mas em troca oferece a **flexibilidade máxima**. Você gerencia quase todo o *stack* de carga de trabalho, desde o SO até o runtime da aplicação.
+*   **Responsabilidade do Provedor:** Hardware físico, conectividade de rede e segurança física do datacenter.
+*   **Sua Responsabilidade:** Instalação e manutenção do Sistema Operacional (OS), configurações de rede, bancos de dados e armazenamento.
 
-> [!IMPORTANT]
-> Lembre-se: No IaaS, você é o administrador do sistema. Se o sistema operacional precisar de um patch de segurança, é você quem deve aplicar.
-
----
-
-## Cenários de Uso Comuns
-
-O uso de IaaS é ideal em situações onde o controle total da máquina é necessário:
-
-1.  **Migração Lift-and-Shift:** 
-    Estratégia de mover cargas de trabalho do datacenter local para a nuvem exatamente como estão, sem redesenhar a aplicação.
-    
-2.  **Teste e Desenvolvimento:** 
-    Capacidade de replicar rapidamente configurações de hardware específicas para testar softwares e desligar os ambientes logo em seguida para economizar custos.
-
-3.  **Hospedagem de Aplicações Legadas:**
-    Quando uma aplicação exige uma versão específica de um Sistema Operacional ou configurações de kernel que serviços gerenciados (PaaS) não permitem.
+### Foco e Cenários
+*   **Foco:** Flexibilidade máxima e controle total do stack.
+*   **Migração Lift-and-shift:** Mover cargas de trabalho locais para a nuvem sem alterações.
+*   **Teste e Desenvolvimento:** Replicação rápida de ambientes específicos com controle completo.
 
 ---
 
-> [!IMPORTANT]
-> **Resumo:** IaaS = Controle Máximo + Flexibilidade Total + Alta Responsabilidade Operacional.
+## 2. Plataforma como um Serviço (PaaS)
+O **PaaS** é o meio-termo ideal para desenvolvedores. Ele remove a necessidade de gerenciar o sistema operacional e a infraestrutura subjacente.
+
+*   **Responsabilidade do Provedor:** Além do hardware, eles mantêm o OS, middleware, ferramentas de desenvolvimento e runtimes.
+*   **Sua Responsabilidade:** Código da aplicação, dados e controles de acesso.
+
+### Foco e Cenários
+*   **Foco:** Desenvolvimento e implantação ágil de aplicações.
+*   **Framework de Desenvolvimento:** Criar ou personalizar apps usando componentes internos da nuvem (escalabilidade e alta disponibilidade nativas).
+*   **Análise e BI:** Ferramentas prontas para minerar dados e encontrar insights sem configurar servidores de análise.
+
+---
+
+## 3. Software como um Serviço (SaaS)
+O **SaaS** é o modelo mais completo e fácil de usar. Você utiliza um software pronto, geralmente via navegador ou aplicativos.
+
+*   **Responsabilidade do Provedor:** Gerencia quase toda a pilha, incluindo infraestrutura, plataforma e a manutenção do próprio aplicativo.
+*   **Sua Responsabilidade:** Seus dados, identidades (logins) e configurações de acesso de dispositivos.
+
+### Foco e Cenários
+*   **Foco:** Facilidade de uso e baixa sobrecarga operacional.
+*   **Produtividade e Comunicação:** Email (Outlook/Gmail), ferramentas de colaboração (Teams/Slack) e suítes de escritório (Office 365).
+*   **Gestão:** Softwares de finanças, RH e controle de despesas.
+
+---
+
+## Resumo de Responsabilidades
+
+| Modelo | O que você gerencia? | Ideal para... |
+| :--- | :--- | :--- |
+| **IaaS** | SO, Apps, Dados, Rede, Runtime | Administradores de Infraestrutura |
+| **PaaS** | Apps e Dados | Desenvolvedores de Software |
+| **SaaS** | Dados e Acessos | Usuários Finais e Empresas |
+
+---
+
+> [!TIP]
+> A escolha entre IaaS, PaaS e SaaS depende do equilíbrio que você busca entre **controle** e **conveniência**. Quanto mais você sobe na pirâmide (em direção ao SaaS), menor é a sua carga de trabalho operacional.
 
 
 
