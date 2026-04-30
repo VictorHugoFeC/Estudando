@@ -139,11 +139,32 @@ Ideal para empresas que já utilizam VMware localmente e desejam migrar sem rees
 ---
 *Repositório criado para fins de estudo e documentação da jornada Cloud.*
 
-# Introdução á extração de informações alimentadas por IA no Microsoft Foundry
-Serviços de IA do Azure para extração de informações, fornece uma ampla gama de serviços baseados em nuvem para várias tarefas de IA, incluindo a extração e análise de informações do conteúdo digital.
-Os principais serviços usados em cenários de extração de informações incluem: 
-* **Análise de imagem da visão do Azure:** Permite extrair insight de imagend, incluindo a detecção e identificação de objetos comuns em imagens, a geração de legendas e marcas relevantes para imagens e extração de texto em imagens.
-* **Compreensão de conteúdo do Azure:** É um serviço de análise multimodal baseado em IA que pode extrair insight de documentos estruturados, imagens, áudio e vídeo.
-* **Inteligência de Documentos do Azure:** Foi projetado para extrair campos e valores de formulário digitais (ou digitalizados), como faturas, recibis, pedidos de compra e outros.
-* **Pesquisa de IA do Azure:** Executa a indexação assistida por IA na qual um pipeline de habilidades de IA é usado para extrair e indexar sistematicamente informações de conteúdo estruturadi e não estruturado.
+# Introdução à Extração de Informações com IA no Microsoft Azure
+
+O ecossistema de **Serviços de IA do Azure** oferece uma ampla gama de soluções baseadas em nuvem para tarefas de inteligência artificial, permitindo a extração e análise sistemática de informações a partir de conteúdos digitais.
+
+## Principais Serviços
+
+Os serviços abaixo são os pilares para cenários de extração de dados e análise inteligente:
+
+* **Azure AI Vision (Análise de Imagem):** Permite extrair insights de imagens, incluindo a detecção e identificação de objetos, geração de legendas (captions), marcas relevantes (tags) e extração de texto (OCR).
+* **Azure AI Content Understanding (Compreensão de Conteúdo):** Um serviço de análise multimodal que extrai insights de documentos estruturados, imagens, áudio e vídeo de forma unificada.
+* **Azure AI Document Intelligence (Inteligência de Documentos):** Projetado para extrair campos e valores de formulários digitais ou digitalizados, como faturas, recibos, pedidos de compra e documentos de identidade.
+* **Azure AI Search (Pesquisa de IA):** Executa indexação assistida por IA através de um pipeline de habilidades, permitindo pesquisar informações sistematicamente em conteúdos estruturados e não estruturados.
+
+---
+
+> [!IMPORTANT]
+> Você pode utilizar esses serviços separadamente ou combiná-los para criar soluções personalizadas e robustas.
+
+
+
+
+
+
+
+
+
+
+
 
