@@ -138,3 +138,12 @@ Ideal para empresas que já utilizam VMware localmente e desejam migrar sem rees
 
 ---
 *Repositório criado para fins de estudo e documentação da jornada Cloud.*
+
+# Introdução á extração de informações alimentadas por IA no Microsoft Foundry
+Serviços de IA do Azure para extração de informações, fornece uma ampla gama de serviços baseados em nuvem para várias tarefas de IA, incluindo a extração e análise de informações do conteúdo digital.
+Os principais serviços usados em cenários de extração de informações incluem: 
+* **Análise de imagem da visão do Azure:** Permite extrair insight de imagend, incluindo a detecção e identificação de objetos comuns em imagens, a geração de legendas e marcas relevantes para imagens e extração de texto em imagens.
+* **Compreensão de conteúdo do Azure:** É um serviço de análise multimodal baseado em IA que pode extrair insight de documentos estruturados, imagens, áudio e vídeo.
+* **Inteligência de Documentos do Azure:** Foi projetado para extrair campos e valores de formulário digitais (ou digitalizados), como faturas, recibis, pedidos de compra e outros.
+* **Pesquisa de IA do Azure:** Executa a indexação assistida por IA na qual um pipeline de habilidades de IA é usado para extrair e indexar sistematicamente informações de conteúdo estruturadi e não estruturado.
+
