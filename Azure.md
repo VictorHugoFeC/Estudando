@@ -286,7 +286,9 @@ O **SaaS** é o modelo mais completo e fácil de usar. Você utiliza um software
 > [!TIP]
 > A escolha entre IaaS, PaaS e SaaS depende do equilíbrio que você busca entre **controle** e **conveniência**. Quanto mais você sobe na pirâmide (em direção ao SaaS), menor é a sua carga de trabalho operacional.
 
-
+# Descrever os Principais Componentes Arquitetônicos do Azure
+## O que o Azure Oferece?
+Inovação Ilimitada. Crie aplicativos e soluções inteligentes com tecnologia, ferramentas e serviços avançados para levar suas operações para o pró
 
 
 
